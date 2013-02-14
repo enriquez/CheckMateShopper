@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12C60" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CMCategory" representedClassName="CMCategory" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="CMItem" inverseName="category" inverseEntity="CMItem" syncable="YES"/>
+    </entity>
+    <entity name="CMItem" representedClassName="CMItem" syncable="YES">
+        <attribute name="itemId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CMCategory" inverseName="items" inverseEntity="CMCategory" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CMItem" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="CMCategory" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>

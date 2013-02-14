@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051CD39816CC114900D9022C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051CD39716CC114900D9022C /* UIKit.framework */; };
+		051CD39A16CC114900D9022C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051CD39916CC114900D9022C /* Foundation.framework */; };
+		051CD39C16CC114900D9022C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051CD39B16CC114900D9022C /* CoreGraphics.framework */; };
+		051CD39E16CC114900D9022C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051CD39D16CC114900D9022C /* CoreData.framework */; };
+		051CD3A416CC114900D9022C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 051CD3A216CC114900D9022C /* InfoPlist.strings */; };
+		051CD3A616CC114900D9022C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 051CD3A516CC114900D9022C /* main.m */; };
+		051CD3AA16CC114A00D9022C /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051CD3A916CC114A00D9022C /* CMAppDelegate.m */; };
+		051CD3AC16CC114A00D9022C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 051CD3AB16CC114A00D9022C /* Default.png */; };
+		051CD3AE16CC114A00D9022C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 051CD3AD16CC114A00D9022C /* Default@2x.png */; };
+		051CD3B016CC114A00D9022C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 051CD3AF16CC114A00D9022C /* Default-568h@2x.png */; };
+		051CD3B316CC114A00D9022C /* CheckMateShopper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 051CD3B116CC114A00D9022C /* CheckMateShopper.xcdatamodeld */; };
+		051CD3C316CC135200D9022C /* CMShopperHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 051CD3C216CC135200D9022C /* CMShopperHTTPClient.m */; };
+		051CD3C816CC13F600D9022C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051CD3C716CC13F600D9022C /* Storyboard.storyboard */; };
+		051CD3D416CC214800D9022C /* CMNewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051CD3D316CC214800D9022C /* CMNewItemViewController.m */; };
+		05FD91B216CC295C007646DE /* CMItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD91B116CC295C007646DE /* CMItemListViewController.m */; };
+		05FD91B816CC33A1007646DE /* CMItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD91B716CC33A1007646DE /* CMItem.m */; };
+		05FD91C416CC38CF007646DE /* CMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD91C316CC38CF007646DE /* CMCategory.m */; };
+		05FD91C716CC4BE9007646DE /* CMEditItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FD91C616CC4BE9007646DE /* CMEditItemViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		051CD39416CC114900D9022C /* CheckMateShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMateShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		051CD39716CC114900D9022C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		051CD39916CC114900D9022C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		051CD39B16CC114900D9022C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		051CD39D16CC114900D9022C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		051CD3A116CC114900D9022C /* CheckMateShopper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckMateShopper-Info.plist"; sourceTree = "<group>"; };
+		051CD3A316CC114900D9022C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		051CD3A516CC114900D9022C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		051CD3A716CC114900D9022C /* CheckMateShopper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckMateShopper-Prefix.pch"; sourceTree = "<group>"; };
+		051CD3A816CC114900D9022C /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
+		051CD3A916CC114A00D9022C /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
+		051CD3AB16CC114A00D9022C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		051CD3AD16CC114A00D9022C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		051CD3AF16CC114A00D9022C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		051CD3B216CC114A00D9022C /* CheckMateShopper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CheckMateShopper.xcdatamodel; sourceTree = "<group>"; };
+		051CD3C116CC135200D9022C /* CMShopperHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMShopperHTTPClient.h; path = Vendor/CMShopperHTTPClient/CMShopperHTTPClient.h; sourceTree = "<group>"; };
+		051CD3C216CC135200D9022C /* CMShopperHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMShopperHTTPClient.m; path = Vendor/CMShopperHTTPClient/CMShopperHTTPClient.m; sourceTree = "<group>"; };
+		051CD3C716CC13F600D9022C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		051CD3D216CC214800D9022C /* CMNewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMNewItemViewController.h; path = Controllers/CMNewItemViewController.h; sourceTree = "<group>"; };
+		051CD3D316CC214800D9022C /* CMNewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMNewItemViewController.m; path = Controllers/CMNewItemViewController.m; sourceTree = "<group>"; };
+		05FD91B016CC295C007646DE /* CMItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMItemListViewController.h; path = Controllers/CMItemListViewController.h; sourceTree = "<group>"; };
+		05FD91B116CC295C007646DE /* CMItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMItemListViewController.m; path = Controllers/CMItemListViewController.m; sourceTree = "<group>"; };
+		05FD91B616CC33A1007646DE /* CMItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMItem.h; path = Models/CMItem.h; sourceTree = "<group>"; };
+		05FD91B716CC33A1007646DE /* CMItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMItem.m; path = Models/CMItem.m; sourceTree = "<group>"; };
+		05FD91C216CC38CF007646DE /* CMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMCategory.h; path = Models/CMCategory.h; sourceTree = "<group>"; };
+		05FD91C316CC38CF007646DE /* CMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMCategory.m; path = Models/CMCategory.m; sourceTree = "<group>"; };
+		05FD91C516CC4BE9007646DE /* CMEditItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMEditItemViewController.h; path = Controllers/CMEditItemViewController.h; sourceTree = "<group>"; };
+		05FD91C616CC4BE9007646DE /* CMEditItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMEditItemViewController.m; path = Controllers/CMEditItemViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051CD39116CC114900D9022C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051CD39816CC114900D9022C /* UIKit.framework in Frameworks */,
+				051CD39A16CC114900D9022C /* Foundation.framework in Frameworks */,
+				051CD39C16CC114900D9022C /* CoreGraphics.framework in Frameworks */,
+				051CD39E16CC114900D9022C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051CD38B16CC114900D9022C = {
+			isa = PBXGroup;
+			children = (
+				051CD39F16CC114900D9022C /* CheckMateShopper */,
+				051CD39616CC114900D9022C /* Frameworks */,
+				051CD39516CC114900D9022C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051CD39516CC114900D9022C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051CD39416CC114900D9022C /* CheckMateShopper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051CD39616CC114900D9022C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				051CD39716CC114900D9022C /* UIKit.framework */,
+				051CD39916CC114900D9022C /* Foundation.framework */,
+				051CD39B16CC114900D9022C /* CoreGraphics.framework */,
+				051CD39D16CC114900D9022C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		051CD39F16CC114900D9022C /* CheckMateShopper */ = {
+			isa = PBXGroup;
+			children = (
+				051CD3B116CC114A00D9022C /* CheckMateShopper.xcdatamodeld */,
+				051CD3A816CC114900D9022C /* CMAppDelegate.h */,
+				051CD3A916CC114A00D9022C /* CMAppDelegate.m */,
+				051CD3BB16CC11E700D9022C /* Controllers */,
+				051CD3B916CC11DA00D9022C /* Models */,
+				051CD3C716CC13F600D9022C /* Storyboard.storyboard */,
+				051CD3A016CC114900D9022C /* Supporting Files */,
+				051CD3BF16CC133000D9022C /* Vendor */,
+				051CD3BA16CC11DE00D9022C /* Views */,
+			);
+			path = CheckMateShopper;
+			sourceTree = "<group>";
+		};
+		051CD3A016CC114900D9022C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				051CD3A116CC114900D9022C /* CheckMateShopper-Info.plist */,
+				051CD3A216CC114900D9022C /* InfoPlist.strings */,
+				051CD3A516CC114900D9022C /* main.m */,
+				051CD3A716CC114900D9022C /* CheckMateShopper-Prefix.pch */,
+				051CD3AB16CC114A00D9022C /* Default.png */,
+				051CD3AD16CC114A00D9022C /* Default@2x.png */,
+				051CD3AF16CC114A00D9022C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		051CD3B916CC11DA00D9022C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05FD91C216CC38CF007646DE /* CMCategory.h */,
+				05FD91C316CC38CF007646DE /* CMCategory.m */,
+				05FD91B616CC33A1007646DE /* CMItem.h */,
+				05FD91B716CC33A1007646DE /* CMItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		051CD3BA16CC11DE00D9022C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		051CD3BB16CC11E700D9022C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05FD91C516CC4BE9007646DE /* CMEditItemViewController.h */,
+				05FD91C616CC4BE9007646DE /* CMEditItemViewController.m */,
+				05FD91B016CC295C007646DE /* CMItemListViewController.h */,
+				05FD91B116CC295C007646DE /* CMItemListViewController.m */,
+				051CD3D216CC214800D9022C /* CMNewItemViewController.h */,
+				051CD3D316CC214800D9022C /* CMNewItemViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		051CD3BF16CC133000D9022C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				051CD3C016CC133500D9022C /* CMShopperHTTPClient */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		051CD3C016CC133500D9022C /* CMShopperHTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				051CD3C116CC135200D9022C /* CMShopperHTTPClient.h */,
+				051CD3C216CC135200D9022C /* CMShopperHTTPClient.m */,
+			);
+			name = CMShopperHTTPClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051CD39316CC114900D9022C /* CheckMateShopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051CD3B616CC114A00D9022C /* Build configuration list for PBXNativeTarget "CheckMateShopper" */;
+			buildPhases = (
+				051CD39016CC114900D9022C /* Sources */,
+				051CD39116CC114900D9022C /* Frameworks */,
+				051CD39216CC114900D9022C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckMateShopper;
+			productName = CheckMateShopper;
+			productReference = 051CD39416CC114900D9022C /* CheckMateShopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051CD38C16CC114900D9022C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Enriquez";
+			};
+			buildConfigurationList = 051CD38F16CC114900D9022C /* Build configuration list for PBXProject "CheckMateShopper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 051CD38B16CC114900D9022C;
+			productRefGroup = 051CD39516CC114900D9022C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051CD39316CC114900D9022C /* CheckMateShopper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051CD39216CC114900D9022C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051CD3A416CC114900D9022C /* InfoPlist.strings in Resources */,
+				051CD3AC16CC114A00D9022C /* Default.png in Resources */,
+				051CD3AE16CC114A00D9022C /* Default@2x.png in Resources */,
+				051CD3B016CC114A00D9022C /* Default-568h@2x.png in Resources */,
+				051CD3C816CC13F600D9022C /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051CD39016CC114900D9022C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051CD3A616CC114900D9022C /* main.m in Sources */,
+				051CD3AA16CC114A00D9022C /* CMAppDelegate.m in Sources */,
+				051CD3B316CC114A00D9022C /* CheckMateShopper.xcdatamodeld in Sources */,
+				051CD3C316CC135200D9022C /* CMShopperHTTPClient.m in Sources */,
+				051CD3D416CC214800D9022C /* CMNewItemViewController.m in Sources */,
+				05FD91B216CC295C007646DE /* CMItemListViewController.m in Sources */,
+				05FD91B816CC33A1007646DE /* CMItem.m in Sources */,
+				05FD91C416CC38CF007646DE /* CMCategory.m in Sources */,
+				05FD91C716CC4BE9007646DE /* CMEditItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		051CD3A216CC114900D9022C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051CD3A316CC114900D9022C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051CD3B416CC114A00D9022C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		051CD3B516CC114A00D9022C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051CD3B716CC114A00D9022C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckMateShopper/CheckMateShopper-Prefix.pch";
+				INFOPLIST_FILE = "CheckMateShopper/CheckMateShopper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		051CD3B816CC114A00D9022C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckMateShopper/CheckMateShopper-Prefix.pch";
+				INFOPLIST_FILE = "CheckMateShopper/CheckMateShopper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051CD38F16CC114900D9022C /* Build configuration list for PBXProject "CheckMateShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051CD3B416CC114A00D9022C /* Debug */,
+				051CD3B516CC114A00D9022C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051CD3B616CC114A00D9022C /* Build configuration list for PBXNativeTarget "CheckMateShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051CD3B716CC114A00D9022C /* Debug */,
+				051CD3B816CC114A00D9022C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		051CD3B116CC114A00D9022C /* CheckMateShopper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				051CD3B216CC114A00D9022C /* CheckMateShopper.xcdatamodel */,
+			);
+			currentVersion = 051CD3B216CC114A00D9022C /* CheckMateShopper.xcdatamodel */;
+			path = CheckMateShopper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 051CD38C16CC114900D9022C /* Project object */;
+}
